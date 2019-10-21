@@ -41,7 +41,7 @@ end
 
 def matrix_update(matrix, row, column, new_value)
   [ENNET_HOUSE, ENFIELD_TENNIS_ACADEMY][row][column] = new_value
-  
+  [ENNET_HOUSE, ENFIELD_TENNIS_ACADEMY]
 end
 
 
