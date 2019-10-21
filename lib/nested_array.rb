@@ -55,7 +55,7 @@ def matrix_update(matrix, row, column, new_value)
   "Mario Incandenza",
   "Michael Pemulis"
 ]
-  matrix = [house, tennis
+  matrix = [house, tennis]
   matrix[row][column] = new_value
   matrix
 end
