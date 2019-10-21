@@ -48,7 +48,7 @@ def matrix_update(matrix, row, column, new_value)
   "Bruce Green"
 ]
 
-ENFIELD_TENNIS_ACADEMY = [
+  ENFIELD_TENNIS_ACADEMY = [
   "Hal Incandenza",
   "Lyle",
   "Gerhard Schtitt",
