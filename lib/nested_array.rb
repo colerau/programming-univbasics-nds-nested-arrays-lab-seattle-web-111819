@@ -40,7 +40,7 @@ def matrix_lookup(matrix, row, column)
 end
 
 def matrix_update(matrix, row, column, new_value)
-  ENNET_HOUSE = [
+  house = [
   "Don Gately",
   "Joelle van Dyne",
   "Pat M.",
@@ -48,14 +48,14 @@ def matrix_update(matrix, row, column, new_value)
   "Bruce Green"
 ]
 
-  ENFIELD_TENNIS_ACADEMY = [
+  tennis = [
   "Hal Incandenza",
   "Lyle",
   "Gerhard Schtitt",
   "Mario Incandenza",
   "Michael Pemulis"
 ]
-  matrix = [ENNET_HOUSE, ENFIELD_TENNIS_ACADEMY]
+  matrix = [house, tennis
   matrix[row][column] = new_value
   matrix
 end
